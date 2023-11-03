@@ -4,7 +4,7 @@ body {
 }
 header {
   background-color: white;
-  height: 94px;
+  height: 100px;
 }
 
 .logo-wrap {
@@ -25,20 +25,23 @@ header {
 
 .gnb-default-wrap {
   background-color: #fff;
-  height: 44px;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
-  position: relative;
   text-align: center;
 }
 
-.gnb-default-wrap ul {
-  margin: 12px;
-  padding: 0;
+.gnb-default {
+  margin: 0 auto;
+  position: relative;
+}
+.gnb-default ul {
   display: flex;
   justify-content: center;
+  margin: 8px;
+  padding: 0;
   list-style: none;
 }
-.gnb-default-wrap ul li {
-  margin: auto 20px;
+.gnb-default ul li {
+  padding: 10px 5px;
+  margin: 0 40px;
 }
