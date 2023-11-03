@@ -31,8 +31,13 @@ header {
 }
 
 .gnb-default {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 1400px;
   margin: 0 auto;
-  position: relative;
+  padding: 0;
+  list-style: none;
 }
 .gnb-default ul {
   display: flex;
@@ -43,5 +48,5 @@ header {
 }
 .gnb-default ul li {
   padding: 10px 5px;
-  margin: 0 40px;
+  margin: 0 50px;
 }
